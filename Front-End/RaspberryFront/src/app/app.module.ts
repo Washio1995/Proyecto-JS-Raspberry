@@ -20,6 +20,7 @@ import { FormularioUsuarioComponent } from './componentes/formulario-usuario/for
 import { RutaRegistroComponent } from './rutas/ruta-registro/ruta-registro.component';
 import {FormsModule} from "@angular/forms";
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +39,7 @@ import {FormsModule} from "@angular/forms";
     RutaAccionesComponent,
     FormularioUsuarioComponent,
     RutaRegistroComponent
+
   ],
   imports: [
     BrowserModule,

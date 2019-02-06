@@ -33,10 +33,7 @@ module.exports = {
       ],
       defaultsTo: 'Usuario'
     },
-    usuarios:{
-      collection:'usuario', // Modelo Hijo
-      via:'idUsuario' //Nombre del Campo foreign key
-    }
+
 
 
   },
