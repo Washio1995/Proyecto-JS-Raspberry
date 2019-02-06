@@ -55,7 +55,7 @@ const routes: Routes = [
                 ]
             },
             {
-                path: 'menu-usuario',
+                path: 'menu-usuario.ts',
                 component: RutaMenuUsuarioComponent,
                 children: [
                     {

@@ -1,0 +1,70 @@
+<form #formularioResgistrarUsuario="ngForm"
+      novalidate
+      (submit)="emitirFormularioValido(formularioResgistrarUsuario)"
+>
+  <div>
+
+
+  </div>
+
+
+
+  <div class="ui-inputgroup">
+
+    <label [hidden]="true"
+           for="nombre">Nombre</label>
+
+    <input id="nombre"
+
+           pInputText
+           placeholder="Nombre"
+           required
+           type="text"
+           name="nombre"
+           [(ngModel)]="nombreUsuario"
+           #inputNombre="ngModel"
+    >
+  </div>
+
+  <div>
+
+    <label [hidden]="true"
+           for="correoElectronico">Correo Electronico</label>
+
+    <input id="correoElectronico"
+           pInputText
+           placeholder="Correo Electronico"
+           required
+           type="text"
+           name="correoElectronico"
+           [(ngModel)]="correoElectronico"
+           #inputCorreoElectronico="ngModel"
+    >
+  </div>
+
+
+  <div>
+
+    <label [hidden]="true"
+           for="fechaNacimiento">Fecha de Nacimiento</label>
+
+
+    <input id="fechaNacimiento"
+           pInputText
+           placeholder="Fecha de Nacimiento"
+           required
+           type="text"
+           name="fechaNacimiento"
+           [(ngModel)]="fechaNacimiento"
+           #inputFechaNacimiento="ngModel"
+    >
+  </div>
+
+
+  <button
+
+          [disabled]="formularioResgistrarUsuario.invalid">
+    {{nombreBoton}}
+  </button
+>
+</form>
