@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-      <change afterPath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/interfaces/sensor.ts" afterDir="false" />
     <list default="true" id="ee247ef3-e920-4187-aaea-a1599508e219" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
