@@ -16,6 +16,10 @@ import { RutaGestionCasaComponent } from './rutas/ruta-gestion-casa/ruta-gestion
 import { RutaNotificacionesComponent } from './rutas/ruta-notificaciones/ruta-notificaciones.component';
 import { RutaRecuperarContrasenaComponent } from './rutas/ruta-recuperar-contrasena/ruta-recuperar-contrasena.component';
 import { RutaAccionesComponent } from './rutas/ruta-acciones/ruta-acciones.component';
+import { FormularioUsuarioComponent } from './componentes/formulario-usuario/formulario-usuario.component';
+import { RutaRegistroComponent } from './rutas/ruta-registro/ruta-registro.component';
+import {FormsModule} from "@angular/forms";
+
 
 @NgModule({
   declarations: [
@@ -32,13 +36,19 @@ import { RutaAccionesComponent } from './rutas/ruta-acciones/ruta-acciones.compo
     RutaGestionCasaComponent,
     RutaNotificacionesComponent,
     RutaRecuperarContrasenaComponent,
-    RutaAccionesComponent
+    RutaAccionesComponent,
+    FormularioUsuarioComponent,
+    RutaRegistroComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+      FormsModule
   ],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
