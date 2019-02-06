@@ -1,5 +1,5 @@
 /**
- * Casa.js
+ * Log.js
  *
  * @description :: A model definition represents a database table/collection.
  * @docs        :: https://sailsjs.com/docs/concepts/models-and-orm/models
@@ -8,15 +8,14 @@
 module.exports = {
 
   attributes: {
-    direccionCasa:{
+    fechaLog:{
       type:'string',
-      columnName:'direccion_casa'
+      columnName:'fecha_log',
+      required:true
     },
-    pisos:{
-      collection:'piso', // Modelo Hijo
-      via:'idCasa' //Nombre del Campo foreign key
+    idSensor:{
+      model:'Sensor'
     }
-
 
   },
 
