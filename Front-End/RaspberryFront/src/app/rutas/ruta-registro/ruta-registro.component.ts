@@ -5,7 +5,7 @@ import {Usuario} from "../../interfaces/usuario";
 @Component({
   selector: 'app-ruta-registro',
   templateUrl: './ruta-registro.component.html',
-  styleUrls: ['./ruta-registro.component.css']
+  styleUrls: ['./ruta-registro.component.scss']
 })
 export class RutaRegistroComponent implements OnInit {
 

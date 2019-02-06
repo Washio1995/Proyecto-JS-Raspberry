@@ -4,7 +4,7 @@ import {Component, Input, OnInit, EventEmitter} from '@angular/core';
 @Component({
   selector: 'app-formulario-usuario',
   templateUrl: './formulario-usuario.component.html',
-  styleUrls: ['./formulario-usuario.component.css']
+  styleUrls: ['./formulario-usuario.component.scss']
 })
 export class FormularioUsuarioComponent implements OnInit {
 
