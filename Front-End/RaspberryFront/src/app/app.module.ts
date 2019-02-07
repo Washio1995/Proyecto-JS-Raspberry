@@ -24,7 +24,14 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {ButtonModule} from "primeng/button";
 import {MenuModule} from "primeng/menu";
 import {TableModule} from "primeng/table";
-import {CardModule, ChartModule, InputTextModule, MessageModule, MessagesModule} from "primeng/primeng";
+import {
+    BreadcrumbModule,
+    CardModule,
+    ChartModule,
+    InputTextModule,
+    MessageModule,
+    MessagesModule, PanelMenuModule
+} from "primeng/primeng";
 
 
 @NgModule({
@@ -60,7 +67,9 @@ import {CardModule, ChartModule, InputTextModule, MessageModule, MessagesModule}
       MessagesModule,
       MessageModule,
       CardModule,
-      ChartModule
+      ChartModule,
+      BreadcrumbModule,
+      PanelMenuModule
 
   ],
   providers: [
