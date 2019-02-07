@@ -1,10 +1,10 @@
-import {Component, Input, OnInit, EventEmitter} from '@angular/core';
+import {Component, Input, OnInit, EventEmitter, Output} from '@angular/core';
 
 
 @Component({
   selector: 'app-formulario-usuario',
   templateUrl: './formulario-usuario.component.html',
-  styleUrls: ['./formulario-usuario.component.css']
+  styleUrls: ['./formulario-usuario.component.scss']
 })
 export class FormularioUsuarioComponent implements OnInit {
 
@@ -15,13 +15,14 @@ export class FormularioUsuarioComponent implements OnInit {
     @Input()
     nombreBoton: string;
 
-    @Input()
+    @Output()
     formularioValido= new EventEmitter()
 
-    nombreUsuario: string;
-    correoElectronico: string;
-    fechaNacimiento: string;
 
+    nombreUsuario: string;
+    apellido: string;
+    correoElectronico: string;
+    password: string;
 
     constructor() { }
 
@@ -32,8 +33,9 @@ export class FormularioUsuarioComponent implements OnInit {
     emitirFormularioValido() {
         const objetoUsuario = {
             nombre: this.nombreUsuario,
+            apellido: this.apellido,
             correoElectronico: this.correoElectronico,
-            fechaNacimiento: this.fechaNacimiento
+            password: this.password
         };
         this.formularioValido.emit(objetoUsuario);
     }

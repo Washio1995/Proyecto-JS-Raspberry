@@ -1,49 +1,21 @@
+<div class="container">
 
-<h1>INICIO RASPBERRY</h1>
-<ul>
-  <li>
-    <a routerLink="/inicio">Inicio</a>
-  </li>
-  <li>
-    <a routerLink="/info">Informacion del Proyecto</a>
-  </li>
-  <li>
-    <a routerLink="/recuperar-contrasena">Recuperar Contraseña</a>
-  </li>
-  <li>
-    <a routerLink="/login">Login</a>
-    <ul>
-      <li>
-        <a routerLink="/login/menu-admin">Administrador</a>
-        <ul>
-          <li>
-            <a routerLink="/login/menu-admin/gestion-usuarios">Gestion de Usuarios</a>
-          </li>
-          <li>
-            <a routerLink="/login/menu-admin/gestion-sensores">Gestion de Sensores</a>
-          </li>
-          <li>
-            <a routerLink="/login/menu-admin/gestion-casa">Gestion de Casa</a>
-          </li>
-        </ul>
-      </li>
-      <li>
+  <div class="toppane">
+    <h1>PROYECTO RASPBERRY</h1>
+  </div>
 
-        <a routerLink="/login/menu-usuario">Usuario</a>
-        <ul>
-          <li>
-            <a routerLink="/login/menu-usuario/notificaciones"> Notificaciones </a>
-          </li>
-          <li>
-            <a routerLink="/login/menu-usuario/acciones">Acciones</a>
-          </li>
-        </ul>
-      </li>
+  <div class="leftpane">
+    <p-panelMenu [model]="items" [style]="{'width':'315px'}"></p-panelMenu>
+  </div>
 
-    </ul>
-  </li>
-</ul>
+  <div class="middlepane">
+    <router-outlet></router-outlet>
+  </div>
+
+
+</div>
 
 
 
-<router-outlet></router-outlet>
+
+

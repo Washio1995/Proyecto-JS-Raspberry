@@ -5,7 +5,7 @@ import {Usuario} from "../../interfaces/usuario";
 @Component({
   selector: 'app-ruta-registro',
   templateUrl: './ruta-registro.component.html',
-  styleUrls: ['./ruta-registro.component.css']
+  styleUrls: ['./ruta-registro.component.scss']
 })
 export class RutaRegistroComponent implements OnInit {
 
@@ -19,15 +19,16 @@ export class RutaRegistroComponent implements OnInit {
         const crearUsuario$ = this._usuarioRestService
             .create(
                 usuarioObjeto.nombre,
+                usuarioObjeto.apellido,
                 usuarioObjeto.correoElectronico,
-                usuarioObjeto.fechaNacimiento
+                usuarioObjeto.password
             );
 
         crearUsuario$
             .subscribe(
                 (usuario: Usuario) => {
                     console.log('Usuario');
-                    alert(`Usuario creado: ${usuario.userName}`);
+                    alert(`Usuario creado: ${usuario.nombre}`);
                 },
                 (error) => {
                     console.error('Error: ', error);
