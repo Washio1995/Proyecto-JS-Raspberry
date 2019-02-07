@@ -31,6 +31,7 @@ export class RutaRegistroComponent implements OnInit {
                     alert(`Usuario creado: ${usuario.nombre}`);
                 },
                 (error) => {
+                    alert(`Ya existe un usuario registrado con ese correo electrónico`);
                     console.error('Error: ', error);
                 }
             );

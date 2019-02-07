@@ -30,8 +30,16 @@ import {
     ChartModule,
     InputTextModule,
     MessageModule,
-    MessagesModule, PanelMenuModule, TabMenuModule
+    MessagesModule, PanelMenuModule, StepsModule, TabMenuModule
 } from "primeng/primeng";
+import { RutaGestionCasaPisosComponent } from './rutas/ruta-gestion-casa-pisos/ruta-gestion-casa-pisos.component';
+import { RutaGestionCasaCuartosComponent } from './rutas/ruta-gestion-casa-cuartos/ruta-gestion-casa-cuartos.component';
+import { RutaGestionCasaSensoresComponent } from './rutas/ruta-gestion-casa-sensores/ruta-gestion-casa-sensores.component';
+import { RutaGestionCasaVentanasComponent } from './rutas/ruta-gestion-casa-ventanas/ruta-gestion-casa-ventanas.component';
+import { FormularioPisoComponent } from './componentes/formulario-piso/formulario-piso.component';
+import { RutaRegistroPisoComponent } from './rutas/ruta-registro-piso/ruta-registro-piso.component';
+import { RutaRegistroCuartoComponent } from './rutas/ruta-registro-cuarto/ruta-registro-cuarto.component';
+import { RutaRegistroVentanaComponent } from './rutas/ruta-registro-ventana/ruta-registro-ventana.component';
 
 
 @NgModule({
@@ -51,7 +59,15 @@ import {
     RutaRecuperarContrasenaComponent,
     RutaAccionesComponent,
     FormularioUsuarioComponent,
-    RutaRegistroComponent
+    RutaRegistroComponent,
+    RutaGestionCasaPisosComponent,
+    RutaGestionCasaCuartosComponent,
+    RutaGestionCasaSensoresComponent,
+    RutaGestionCasaVentanasComponent,
+    FormularioPisoComponent,
+    RutaRegistroPisoComponent,
+    RutaRegistroCuartoComponent,
+    RutaRegistroVentanaComponent
 
   ],
   imports: [
@@ -70,7 +86,8 @@ import {
       ChartModule,
       BreadcrumbModule,
       PanelMenuModule,
-      TabMenuModule
+      TabMenuModule,
+      StepsModule
 
   ],
   providers: [

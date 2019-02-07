@@ -19,7 +19,8 @@ module.exports = {
     correoElectronico: {
       type: 'string',
       columnName: 'correo_electronico',
-      isEmail: true
+      isEmail: true,
+        unique: true
     },
     password:{
       type:'string',

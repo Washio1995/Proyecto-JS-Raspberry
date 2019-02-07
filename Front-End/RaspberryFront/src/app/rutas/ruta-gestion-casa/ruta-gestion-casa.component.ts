@@ -16,14 +16,11 @@ export class RutaGestionCasaComponent implements OnInit {
   ngOnInit() {
 
       this.items = [
-          {label:'Categories'},
-          {label:'Sports'},
-          {label:'Football'},
-          {label:'Countries'},
-          {label:'Spain'},
-          {label:'F.C. Barcelona'},
-          {label:'Squad'},
-          {label:'Lionel Messi', url: 'https://en.wikipedia.org/wiki/Lionel_Messi'}
+          {label:'PISOS', routerLink:'/login/menu-admin/gestion-casa/pisos'},
+          {label:'CUARTOS', routerLink:'/login/menu-admin/gestion-casa/cuartos'},
+          {label:'VENTANAS', routerLink: '/login/menu-admin/gestion-casa/ventanas'},
+          {label:'SENSORES', routerLink:'/login/menu-admin/gestion-casa/sensores'}
+
       ];
 
   }

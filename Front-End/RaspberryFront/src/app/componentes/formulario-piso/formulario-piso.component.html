@@ -1,0 +1,62 @@
+<form #formularioResgistrarPiso="ngForm"
+      novalidate
+      (submit)="emitirFormularioValido(formularioResgistrarPiso)"
+>
+
+  <div>
+
+    <p *ngIf="inputNivel.errors">
+
+      <p-message
+              *ngIf="inputNivel.errors.required"
+              severity="warn"
+              text="Error: El nivel es requerido"></p-message>
+
+    </p>
+
+  </div>
+
+  <div class="ui-inputgroup">
+
+    <label [hidden]="true"
+           for="nivel">Nivel del Piso</label>
+
+    <input id="nivel"
+
+           pInputText
+           placeholder="Nivel del Piso"
+           required
+           type="number"
+           name="nivel"
+           [(ngModel)]="nivelPiso"
+           #inputNivel="ngModel"
+    >
+  </div>
+
+  <div class="ui-inputgroup">
+
+    <label [hidden]="true"
+           for="idCasa">Casa a la que pertenece piso</label>
+
+    <input id="idCasa"
+           pInputText
+           placeholder="CASA 1"
+           required
+           disabled
+           type="number"
+           name="idCasa"
+           [(ngModel)]="idCasa"
+           #inputIdCasa="ngModel"
+           value="1"
+
+
+    >
+  </div>
+
+
+  <button
+          pButton
+          [disabled]="formularioResgistrarPiso.invalid">
+    {{nombreBoton}}
+  </button>
+</form>

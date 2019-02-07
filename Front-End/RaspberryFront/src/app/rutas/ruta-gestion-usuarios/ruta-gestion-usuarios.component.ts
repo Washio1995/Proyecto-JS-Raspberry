@@ -40,12 +40,14 @@ export class RutaGestionUsuariosComponent implements OnInit {
 
     eliminar(usuario: Usuario) {
 
-        const razaEliminada$ = this._usuarioRestService.delete(usuario.id);
+        const usuarioEliminado$ = this._usuarioRestService.delete(usuario.id);
 
-        razaEliminada$
+        usuarioEliminado$
             .subscribe(
-                (razaEliminada: Usuario) => {
-                    console.log('Se elimino:', razaEliminada);
+                (usuarioEliminado: Usuario) => {
+
+                    console.log('Se elimino:', usuarioEliminado);
+                    alert(`Usuario eliminado: ${usuario.nombre}`);
 
                     const indice = this.usuarios
                         .findIndex((r) => r.id === usuario.id);
