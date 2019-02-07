@@ -12,6 +12,7 @@ module.exports = {
     nivel:{
       type:'number',
       required:true,
+        unique: true
     },
     idCasa: {
       model: 'Casa' //Modelo Papa
