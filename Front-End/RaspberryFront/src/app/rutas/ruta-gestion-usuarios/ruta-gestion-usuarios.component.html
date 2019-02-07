@@ -1,4 +1,18 @@
 
+
+<div>
+  <button
+          pButton
+          class="ui-button-success"
+          label="Nuevo Usuario"
+          routerLink="/login/menu-admin/gestion-usuarios/registrar-usuario">
+  </button>
+  <router-outlet></router-outlet>
+</div>
+
+
+<div>
+
 <p-table [value]="usuarios" [paginator]="true" [rows]="1">
   <ng-template pTemplate="header">
     <tr>
@@ -49,6 +63,6 @@
   </ng-template>
 </p-table>
 
+</div>
 
 
-<router-outlet></router-outlet>

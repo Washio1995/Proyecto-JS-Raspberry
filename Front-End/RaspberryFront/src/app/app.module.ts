@@ -30,7 +30,7 @@ import {
     ChartModule,
     InputTextModule,
     MessageModule,
-    MessagesModule, PanelMenuModule
+    MessagesModule, PanelMenuModule, TabMenuModule
 } from "primeng/primeng";
 
 
@@ -69,7 +69,8 @@ import {
       CardModule,
       ChartModule,
       BreadcrumbModule,
-      PanelMenuModule
+      PanelMenuModule,
+      TabMenuModule
 
   ],
   providers: [
