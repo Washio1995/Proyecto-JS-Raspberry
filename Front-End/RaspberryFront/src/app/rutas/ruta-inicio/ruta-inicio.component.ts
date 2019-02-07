@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {MenuItem} from "primeng/api";
 
 @Component({
   selector: 'app-ruta-inicio',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RutaInicioComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit() {
+
+
+
   }
 
 }

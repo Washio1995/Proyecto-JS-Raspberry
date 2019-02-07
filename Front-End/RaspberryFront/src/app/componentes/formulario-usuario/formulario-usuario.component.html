@@ -2,12 +2,74 @@
       novalidate
       (submit)="emitirFormularioValido(formularioResgistrarUsuario)"
 >
+
   <div>
+
+    <p *ngIf="inputNombre.errors">
+
+      <p-message
+              *ngIf="inputNombre.errors.required"
+              severity="warn"
+              text="Error: El nombre es requerido"></p-message>
+
+    </p>
+
+    <p *ngIf="inputNombre.errors">
+
+      <p-message
+              *ngIf="inputNombre.errors.pattern"
+              severity="warn"
+              text="Error: El nombre debe contener solo letras."></p-message>
+
+    </p>
+
+    <p *ngIf="inputApellido.errors">
+
+      <p-message
+              *ngIf="inputApellido.errors.required"
+              severity="warn"
+              text="Error: El apellido es requerido"></p-message>
+
+    </p>
+
+    <p *ngIf="inputApellido.errors">
+
+      <p-message
+              *ngIf="inputApellido.errors.pattern"
+              severity="warn"
+              text="Error: El apellido debe contener solo letras"></p-message>
+
+    </p>
+
+
+
+    <p *ngIf="inputCorreoElectronico.errors">
+
+      <p-message
+              *ngIf="inputCorreoElectronico.errors.required"
+              severity="warn"
+              text="Error: El correo electronico es requerido"></p-message>
+
+      <p-message
+              *ngIf="inputCorreoElectronico.errors.email"
+              severity="warn"
+              text="Error: Debe ingresar un correo valido"></p-message>
+
+    </p>
+
+
+    <p *ngIf="inputPassword.errors">
+
+      <p-message
+              *ngIf="inputPassword.errors.required"
+              severity="warn"
+              text="Error: La contraseña es requerida"></p-message>
+
+
+    </p>
 
 
   </div>
-
-
 
   <div class="ui-inputgroup">
 
@@ -19,12 +81,54 @@
            pInputText
            placeholder="Nombre"
            required
+           pattern="[A-Za-z]{1,15}"
            type="text"
            name="nombre"
            [(ngModel)]="nombreUsuario"
            #inputNombre="ngModel"
     >
   </div>
+
+
+  <div>
+
+    <label [hidden]="true"
+           for="apellido">Apellido </label>
+
+
+    <input id="apellido"
+           pInputText
+           placeholder="Apellido"
+           required
+           pattern="[A-Za-z]{1,15}"
+           type="text"
+           name="apellido"
+           [(ngModel)]="apellido"
+           #inputApellido="ngModel"
+    >
+  </div>
+
+
+
+  <div>
+
+    <label [hidden]="true"
+           for="password"> Contraseña </label>
+
+
+    <input id="password"
+           pInputText
+           placeholder="Contraseña"
+           required
+           type="password"
+           name="password"
+           [(ngModel)]="password"
+           #inputPassword="ngModel"
+    >
+  </div>
+
+
+
 
   <div>
 
@@ -35,7 +139,8 @@
            pInputText
            placeholder="Correo Electronico"
            required
-           type="text"
+           email
+           type="email"
            name="correoElectronico"
            [(ngModel)]="correoElectronico"
            #inputCorreoElectronico="ngModel"
@@ -43,26 +148,9 @@
   </div>
 
 
-  <div>
-
-    <label [hidden]="true"
-           for="fechaNacimiento">Fecha de Nacimiento</label>
-
-
-    <input id="fechaNacimiento"
-           pInputText
-           placeholder="Fecha de Nacimiento"
-           required
-           type="text"
-           name="fechaNacimiento"
-           [(ngModel)]="fechaNacimiento"
-           #inputFechaNacimiento="ngModel"
-    >
-  </div>
-
 
   <button
-
+      pButton
           [disabled]="formularioResgistrarUsuario.invalid">
     {{nombreBoton}}
   </button

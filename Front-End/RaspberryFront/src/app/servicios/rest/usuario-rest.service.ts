@@ -16,14 +16,15 @@ export class UsuarioRestService {
 
     }
 
-    findAll(): Observable<Usuario[]> {
-        // OBSERVABLE
-        const razas$ = this._httpClient
-            .get(environment.url + this.nombreModelo)
-            .pipe(map(r => <Usuario[]> r)); // Castear
-
-        return razas$;
+    ListarUsuarios():Observable<Usuario[]> {
+        //Observable
+        const usuarios$ =
+            this._httpClient
+                .get(environment.url+this.nombreModelo)
+                .pipe(map(r => <Usuario[]> r))
+        return usuarios$;
     }
+
 
     delete(id: number): Observable<Usuario> {
         return this._httpClient
@@ -32,13 +33,15 @@ export class UsuarioRestService {
     }
 
     create(nombre: string,
-           username: string,
+           apellido: string,
+           correoElectronico: string,
            password: string): Observable<Usuario> {
 
         const objetoAGuardar = {
             nombre: nombre,
-            username: username,
+            apellido: apellido,
             password: password,
+            correoElectronico: correoElectronico
         };
 
         const url = environment.url + this.nombreModelo;
