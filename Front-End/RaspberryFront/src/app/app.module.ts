@@ -40,6 +40,8 @@ import { FormularioPisoComponent } from './componentes/formulario-piso/formulari
 import { RutaRegistroPisoComponent } from './rutas/ruta-registro-piso/ruta-registro-piso.component';
 import { RutaRegistroCuartoComponent } from './rutas/ruta-registro-cuarto/ruta-registro-cuarto.component';
 import { RutaRegistroVentanaComponent } from './rutas/ruta-registro-ventana/ruta-registro-ventana.component';
+import { FormularioVentanaComponent } from './componentes/formulario-ventana/formulario-ventana.component';
+import { FormularioCuartoComponent } from './componentes/formulario-cuarto/formulario-cuarto.component';
 
 
 @NgModule({
@@ -67,7 +69,9 @@ import { RutaRegistroVentanaComponent } from './rutas/ruta-registro-ventana/ruta
     FormularioPisoComponent,
     RutaRegistroPisoComponent,
     RutaRegistroCuartoComponent,
-    RutaRegistroVentanaComponent
+    RutaRegistroVentanaComponent,
+    FormularioVentanaComponent,
+    FormularioCuartoComponent
 
   ],
   imports: [
