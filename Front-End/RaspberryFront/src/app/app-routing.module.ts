@@ -14,6 +14,11 @@ import {RutaRecuperarContrasenaComponent} from "./rutas/ruta-recuperar-contrasen
 import {RutaNotificacionesComponent} from "./rutas/ruta-notificaciones/ruta-notificaciones.component";
 import {RutaAccionesComponent} from "./rutas/ruta-acciones/ruta-acciones.component";
 import {RutaRegistroComponent} from "./rutas/ruta-registro/ruta-registro.component";
+import {RutaGestionCasaPisosComponent} from "./rutas/ruta-gestion-casa-pisos/ruta-gestion-casa-pisos.component";
+import {RutaGestionCasaCuartosComponent} from "./rutas/ruta-gestion-casa-cuartos/ruta-gestion-casa-cuartos.component";
+import {RutaGestionCasaSensoresComponent} from "./rutas/ruta-gestion-casa-sensores/ruta-gestion-casa-sensores.component";
+import {RutaGestionCasaVentanasComponent} from "./rutas/ruta-gestion-casa-ventanas/ruta-gestion-casa-ventanas.component";
+import {RutaRegistroPisoComponent} from "./rutas/ruta-registro-piso/ruta-registro-piso.component";
 
 const routes: Routes = [
     {
@@ -57,7 +62,31 @@ const routes: Routes = [
                     },
                     {
                         path: 'gestion-casa',
-                        component: RutaGestionCasaComponent
+                        component: RutaGestionCasaComponent,
+                        children: [
+                            {
+                                path:'pisos',
+                                component: RutaGestionCasaPisosComponent,
+                                children:[
+                                    {
+                                        path:'registrar-piso',
+                                        component: RutaRegistroPisoComponent
+                                    }
+                                ]
+                            },
+                            {
+                                path: 'cuartos',
+                                component: RutaGestionCasaCuartosComponent
+                            },
+                            {
+                                path: 'ventanas',
+                                component: RutaGestionCasaVentanasComponent
+                            },
+                            {
+                                path: 'sensores',
+                                component: RutaGestionCasaSensoresComponent
+                            }
+                        ]
                     }
                 ]
             },

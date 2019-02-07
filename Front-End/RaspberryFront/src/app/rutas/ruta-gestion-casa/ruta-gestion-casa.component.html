@@ -1,5 +1,7 @@
 
 <h1>Gestion Casa!!</h1>
 
-<p-breadcrumb [model]="items"></p-breadcrumb>
+<h3>Clickable</h3>
+<p-steps [model]="items" [(activeIndex)]="activeIndex" [readonly]="false"></p-steps>
 
+<router-outlet></router-outlet>
