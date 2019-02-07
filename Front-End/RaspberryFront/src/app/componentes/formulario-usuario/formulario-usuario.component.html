@@ -2,12 +2,9 @@
       novalidate
       (submit)="emitirFormularioValido(formularioResgistrarUsuario)"
 >
+
   <div>
-
-
   </div>
-
-
 
   <div class="ui-inputgroup">
 
@@ -26,6 +23,46 @@
     >
   </div>
 
+
+  <div>
+
+    <label [hidden]="true"
+           for="apellido">Apellido </label>
+
+
+    <input id="apellido"
+           pInputText
+           placeholder="Apellido"
+           required
+           type="text"
+           name="apellido"
+           [(ngModel)]="apellido"
+           #inputApellido="ngModel"
+    >
+  </div>
+
+
+
+  <div>
+
+    <label [hidden]="true"
+           for="password"> Contraseña </label>
+
+
+    <input id="password"
+           pInputText
+           placeholder="Contraseña"
+           required
+           type="password"
+           name="password"
+           [(ngModel)]="password"
+           #inputPassword="ngModel"
+    >
+  </div>
+
+
+
+
   <div>
 
     <label [hidden]="true"
@@ -35,7 +72,7 @@
            pInputText
            placeholder="Correo Electronico"
            required
-           type="text"
+           type="email"
            name="correoElectronico"
            [(ngModel)]="correoElectronico"
            #inputCorreoElectronico="ngModel"
@@ -43,26 +80,9 @@
   </div>
 
 
-  <div>
-
-    <label [hidden]="true"
-           for="fechaNacimiento">Fecha de Nacimiento</label>
-
-
-    <input id="fechaNacimiento"
-           pInputText
-           placeholder="Fecha de Nacimiento"
-           required
-           type="text"
-           name="fechaNacimiento"
-           [(ngModel)]="fechaNacimiento"
-           #inputFechaNacimiento="ngModel"
-    >
-  </div>
-
 
   <button
-
+      pButton
           [disabled]="formularioResgistrarUsuario.invalid">
     {{nombreBoton}}
   </button

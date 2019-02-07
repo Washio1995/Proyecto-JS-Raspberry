@@ -1,13 +1,13 @@
 export
 interface Usuario {
-    id?: number,
-    userName: number,
-    password: string,
-    correoElectronico: string,
-    rol: string
-    lastName: string,
-    fistName: string,
+
     createdAt?: number,
-    updatedAt?: number
+    updatedAt?: number,
+    id?: number,
+    nombre: string,
+    apellido: string,
+    correoElectronico: string,
+    password: string,
+    rol: string
 
 }

@@ -13,6 +13,7 @@ import {RutaGestionCasaComponent} from "./rutas/ruta-gestion-casa/ruta-gestion-c
 import {RutaRecuperarContrasenaComponent} from "./rutas/ruta-recuperar-contrasena/ruta-recuperar-contrasena.component";
 import {RutaNotificacionesComponent} from "./rutas/ruta-notificaciones/ruta-notificaciones.component";
 import {RutaAccionesComponent} from "./rutas/ruta-acciones/ruta-acciones.component";
+import {RutaRegistroComponent} from "./rutas/ruta-registro/ruta-registro.component";
 
 const routes: Routes = [
     {
@@ -42,7 +43,13 @@ const routes: Routes = [
                 children: [
                     {
                         path: 'gestion-usuarios',
-                        component: RutaGestionUsuariosComponent
+                        component: RutaGestionUsuariosComponent,
+                        children: [
+                            {
+                                path: 'registrar-usuario',
+                                component: RutaRegistroComponent
+                            }
+                        ]
                     },
                     {
                         path: 'gestion-sensores',

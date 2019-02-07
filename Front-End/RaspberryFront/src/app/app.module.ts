@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
+import {Component, NgModule} from '@angular/core'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RutaInicioComponent } from './rutas/ruta-inicio/ruta-inicio.component';
@@ -19,6 +18,13 @@ import { RutaAccionesComponent } from './rutas/ruta-acciones/ruta-acciones.compo
 import { FormularioUsuarioComponent } from './componentes/formulario-usuario/formulario-usuario.component';
 import { RutaRegistroComponent } from './rutas/ruta-registro/ruta-registro.component';
 import {FormsModule} from "@angular/forms";
+import {HttpClientModule} from "@angular/common/http";
+import {UsuarioRestService} from "./servicios/rest/usuario-rest.service";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {ButtonModule} from "primeng/button";
+import {MenuModule} from "primeng/menu";
+import {TableModule} from "primeng/table";
+import {CardModule, ChartModule, InputTextModule, MessageModule, MessagesModule} from "primeng/primeng";
 
 
 @NgModule({
@@ -44,10 +50,21 @@ import {FormsModule} from "@angular/forms";
   imports: [
     BrowserModule,
     AppRoutingModule,
-      FormsModule
+      FormsModule,
+      HttpClientModule,
+      BrowserAnimationsModule,
+      ButtonModule,
+      MenuModule,
+      TableModule,
+      InputTextModule,
+      MessagesModule,
+      MessageModule,
+      CardModule,
+      ChartModule
+
   ],
   providers: [
-
+      UsuarioRestService
   ],
   bootstrap: [AppComponent]
 })
