@@ -19,9 +19,7 @@ export class FormularioCuartoComponent implements OnInit {
 
 
     tipoDeCuarto: string;
-    idPiso: {
-      nivel: number
-    }
+    idPiso: number;
 
     cuartos: SelectItem[];
 
@@ -41,7 +39,7 @@ export class FormularioCuartoComponent implements OnInit {
     emitirFormularioValido() {
         const objetoCuarto = {
             nombre: this.tipoDeCuarto,
-            nivel: this.idPiso.nivel
+            nivel: this.idPiso
         };
         this.formularioValido.emit(objetoCuarto);
     }

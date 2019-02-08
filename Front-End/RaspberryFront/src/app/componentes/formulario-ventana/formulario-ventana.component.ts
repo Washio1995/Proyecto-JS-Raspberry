@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-formulario-ventana',
@@ -7,9 +7,36 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormularioVentanaComponent implements OnInit {
 
-  constructor() { }
+    @Input()
+    nombre: string;
 
-  ngOnInit() {
-  }
+    @Input()
+    nombreBoton: string;
+
+    @Output()
+    formularioValido= new EventEmitter()
+
+
+    nombreUsuario: string;
+    apellido: string;
+    correoElectronico: string;
+    password: string;
+
+    constructor() { }
+
+    ngOnInit() {
+        this.nombreUsuario = this.nombre
+    }
+
+    emitirFormularioValido() {
+        const objetoUsuario = {
+            nombre: this.nombreUsuario,
+            apellido: this.apellido,
+            correoElectronico: this.correoElectronico,
+            password: this.password
+        };
+        this.formularioValido.emit(objetoUsuario);
+    }
+
 
 }

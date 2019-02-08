@@ -30,7 +30,7 @@ import {
     ChartModule, DropdownModule,
     InputTextModule,
     MessageModule,
-    MessagesModule, PanelMenuModule, StepsModule, TabMenuModule
+    MessagesModule, PanelMenuModule, SplitButtonModule, StepsModule, TabMenuModule
 } from "primeng/primeng";
 import { RutaGestionCasaPisosComponent } from './rutas/ruta-gestion-casa-pisos/ruta-gestion-casa-pisos.component';
 import { RutaGestionCasaCuartosComponent } from './rutas/ruta-gestion-casa-cuartos/ruta-gestion-casa-cuartos.component';
@@ -102,7 +102,8 @@ import { RutaLogsComponent } from './rutas/ruta-logs/ruta-logs.component';
       PanelMenuModule,
       TabMenuModule,
       StepsModule,
-      DropdownModule
+      DropdownModule,
+      SplitButtonModule
 
   ],
   providers: [
