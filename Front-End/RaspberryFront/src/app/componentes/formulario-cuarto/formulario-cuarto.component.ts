@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {SelectItem} from "primeng/api";
 
 @Component({
   selector: 'app-formulario-cuarto',
@@ -7,9 +8,42 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormularioCuartoComponent implements OnInit {
 
-  constructor() { }
+    @Input()
+    nombre: string;
+
+    @Input()
+    nombreBoton: string;
+
+    @Output()
+    formularioValido= new EventEmitter()
+
+
+    tipoDeCuarto: string;
+    idPiso: {
+      nivel: number
+    }
+
+    cuartos: SelectItem[];
+
+  constructor() {
+
+      this.cuartos = [
+          {label:'Cocina', value:'Cocina'},
+          {label:'Dormitorio', value:'Dormitorio'},
+          {label:'Sala', value:'Sala'}
+
+      ];
+  }
 
   ngOnInit() {
   }
+
+    emitirFormularioValido() {
+        const objetoCuarto = {
+            nombre: this.tipoDeCuarto,
+            nivel: this.idPiso.nivel
+        };
+        this.formularioValido.emit(objetoCuarto);
+    }
 
 }

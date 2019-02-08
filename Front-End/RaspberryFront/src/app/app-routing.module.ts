@@ -19,6 +19,7 @@ import {RutaGestionCasaCuartosComponent} from "./rutas/ruta-gestion-casa-cuartos
 import {RutaGestionCasaSensoresComponent} from "./rutas/ruta-gestion-casa-sensores/ruta-gestion-casa-sensores.component";
 import {RutaGestionCasaVentanasComponent} from "./rutas/ruta-gestion-casa-ventanas/ruta-gestion-casa-ventanas.component";
 import {RutaRegistroPisoComponent} from "./rutas/ruta-registro-piso/ruta-registro-piso.component";
+import {RutaRegistroCuartoComponent} from "./rutas/ruta-registro-cuarto/ruta-registro-cuarto.component";
 
 const routes: Routes = [
     {
@@ -76,7 +77,13 @@ const routes: Routes = [
                             },
                             {
                                 path: 'cuartos',
-                                component: RutaGestionCasaCuartosComponent
+                                component: RutaGestionCasaCuartosComponent,
+                                children: [
+                                    {
+                                        path: 'registrar-cuarto',
+                                        component: RutaRegistroCuartoComponent
+                                    }
+                                ]
                             },
                             {
                                 path: 'ventanas',

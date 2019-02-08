@@ -1,3 +1,60 @@
-<p>
-  formulario-cuarto works!
-</p>
+<form #formularioResgistrarCuarto="ngForm"
+      novalidate
+      (submit)="emitirFormularioValido(formularioResgistrarCuarto)"
+>
+
+  <div>
+
+    <p *ngIf="inputNivel.errors">
+
+      <p-message
+              *ngIf="inputNivel.errors.required"
+              severity="warn"
+              text="Error: El nivel es requerido"></p-message>
+
+    </p>
+
+  </div>
+
+
+  <div class="ui-inputgroup">
+
+    <p-dropdown
+
+                [options]="cuartos"
+                required
+                [(ngModel)]="tipoDeCuarto"
+                #inputTipoCuarto
+                placeholder="Tipo de Cuarto"
+                [showClear]="true">
+
+      </p-dropdown>
+
+  </div>
+
+
+
+  <div class="ui-inputgroup">
+
+    <label [hidden]="true"
+           for="nivel">Nivel del Piso</label>
+
+    <input id="nivel"
+
+           pInputText
+           placeholder="Nivel del Piso"
+           required
+           type="number"
+           name="nivel"
+           [(ngModel)]="nivel"
+           #inputNivel="ngModel"
+    >
+  </div>
+
+  <button
+          pButton
+          [disabled]="formularioResgistrarCuarto.invalid">
+    {{nombreBoton}}
+  </button
+  >
+</form>
