@@ -15,9 +15,9 @@ export class RutaMenuAdminComponent implements OnInit {
   ngOnInit() {
 
       this.items = [
-          {label: 'Gestion Usuarios', icon: 'fa fa-fw fa-book' , routerLink:['/login/menu-admin/gestion-usuarios']},
-          {label: 'Gestion Sensores', icon: 'fa fa-fw fa-bar-chart', routerLink:['/login/menu-admin/gestion-sensores']},
-          {label: 'Gestion Casa', icon: 'fa fa-fw fa-bar-chart', routerLink:['/login/menu-admin/gestion-casa']}
+          {label: 'Gestion Usuarios', icon: 'fa fa-fw fa-book' , routerLink:['/menu-admin/gestion-usuarios']},
+          {label: 'Gestion Sensores', icon: 'fa fa-fw fa-bar-chart', routerLink:['/menu-admin/gestion-sensores']},
+          {label: 'Gestion Casa', icon: 'fa fa-fw fa-bar-chart', routerLink:['/menu-admin/gestion-casa']}
       ];
   }
 
