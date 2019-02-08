@@ -1,0 +1,65 @@
+
+<form (submit)="login()">
+  <p *ngIf="inputCorreoElectronico.errors">
+
+    <p-message
+      *ngIf="inputCorreoElectronico.errors.required"
+      severity="warn"
+      text="Error: El correo electronico es requerido"></p-message>
+
+    <p-message
+      *ngIf="inputCorreoElectronico.errors.email"
+      severity="warn"
+      text="Error: Debe ingresar un correo valido"></p-message>
+
+  </p>
+
+
+  <p *ngIf="inputPassword.errors">
+
+    <p-message
+      *ngIf="inputPassword.errors.required"
+      severity="warn"
+      text="Error: La contraseña es requerida"></p-message>
+
+
+  </p>
+
+  <div >
+
+    <input
+            pInputText
+            placeholder="Correo Electronico"
+            id="correoElectronico"
+           name="correoElectronico"
+           required
+           email
+           type="email"
+           [(ngModel)]="usuario.correoElectronico"
+           #inputCorreoElectronico="ngModel"
+    >
+
+  </div>
+  <div>
+    <input
+            pInputText
+            placeholder="Contraseña"
+            id="password"
+           name="password"
+           type="password"
+           required
+           [(ngModel)]="usuario.password"
+           #inputPassword="ngModel"
+    >
+
+  </div>
+
+  <div>
+    <button
+            pButton
+            class="ui-button-success"
+            label="Iniciar Sesion"
+            [disabled]="inputCorreoElectronico.errors"></button>
+  </div>
+
+</form>

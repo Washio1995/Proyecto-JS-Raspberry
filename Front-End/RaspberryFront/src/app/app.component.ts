@@ -26,12 +26,6 @@ export class AppComponent implements OnInit{
           },
           {
             label: 'Acerca de', routerLink: ['/info']
-          },
-          {
-            label: 'Administrador', routerLink: ['/login/menu-admin']
-          },
-          {
-            label: 'Usuario', routerLink: ['login/menu-usuario']
           }
 
       ]

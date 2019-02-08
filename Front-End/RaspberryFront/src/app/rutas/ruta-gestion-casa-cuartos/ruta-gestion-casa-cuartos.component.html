@@ -1,3 +1,59 @@
-<p>
-  ruta-gestion-casa-cuartos works!
-</p>
+
+<div>
+  <button
+          pButton
+          class="ui-button-success"
+          label="Nuevo Cuarto"
+          routerLink="/login/menu-admin/gestion-casa/cuartos/registrar-cuarto">
+  </button>
+  <router-outlet></router-outlet>
+</div>
+
+<div>
+
+  <p-table [value]="cuartos" [paginator]="true" [rows]="1">
+    <ng-template pTemplate="header">
+      <tr>
+        <th *ngFor="let columna of columnas">
+          {{columna.header}}
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-cuarto>
+      <tr>
+        <td *ngFor="let columna of columnas">
+
+          <div *ngIf="columna.field==='id'">
+
+            <div *ngIf="columna.header=='Identificador'">
+              {{cuarto[columna.field]}}
+            </div>
+
+            <div *ngIf="columna.header=='Acciones'">
+
+              <button pButton
+                      label="Eliminar"
+                      class="ui-button-danger"
+                      (click)="eliminar(cuarto)">
+
+              </button>
+
+
+
+            </div>
+
+          </div>
+
+          <div *ngIf="columna.field!=='id'">
+
+            {{cuarto[columna.field]}}
+
+          </div>
+
+
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+
+</div>
