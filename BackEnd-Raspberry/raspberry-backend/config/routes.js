@@ -21,7 +21,7 @@ module.exports.routes = {
 
   '/': { view: 'pages/homepage' },
 
-
+  'POST /Usuario/login': 'UsuarioController.login',
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *

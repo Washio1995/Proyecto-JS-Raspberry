@@ -27,7 +27,7 @@ import {TableModule} from "primeng/table";
 import {
     BreadcrumbModule,
     CardModule,
-    ChartModule,
+    ChartModule, DropdownModule,
     InputTextModule,
     MessageModule,
     MessagesModule, PanelMenuModule, StepsModule, TabMenuModule
@@ -40,7 +40,10 @@ import { FormularioPisoComponent } from './componentes/formulario-piso/formulari
 import { RutaRegistroPisoComponent } from './rutas/ruta-registro-piso/ruta-registro-piso.component';
 import { RutaRegistroCuartoComponent } from './rutas/ruta-registro-cuarto/ruta-registro-cuarto.component';
 import { RutaRegistroVentanaComponent } from './rutas/ruta-registro-ventana/ruta-registro-ventana.component';
-
+import { FormularioVentanaComponent } from './componentes/formulario-ventana/formulario-ventana.component';
+import { FormularioCuartoComponent } from './componentes/formulario-cuarto/formulario-cuarto.component';
+import {LoginComponent} from "./componentes/login/login.component";
+import {AuthService} from "./servicios/rest/auth.service";
 
 @NgModule({
   declarations: [
@@ -67,7 +70,10 @@ import { RutaRegistroVentanaComponent } from './rutas/ruta-registro-ventana/ruta
     FormularioPisoComponent,
     RutaRegistroPisoComponent,
     RutaRegistroCuartoComponent,
-    RutaRegistroVentanaComponent
+    RutaRegistroVentanaComponent,
+    FormularioVentanaComponent,
+    FormularioCuartoComponent,
+      LoginComponent
 
   ],
   imports: [
@@ -87,11 +93,13 @@ import { RutaRegistroVentanaComponent } from './rutas/ruta-registro-ventana/ruta
       BreadcrumbModule,
       PanelMenuModule,
       TabMenuModule,
-      StepsModule
+      StepsModule,
+      DropdownModule
 
   ],
   providers: [
-      UsuarioRestService
+      UsuarioRestService,
+      AuthService
   ],
   bootstrap: [AppComponent]
 })

@@ -23,8 +23,9 @@ export class FormularioPisoComponent implements OnInit {
 
 
     nivel: number;
-    idCasa: number;
-
+    idCasa:{
+     id: number;
+    }
     emitirFormularioValido() {
         const objetoPiso = {
             nivel: this.nivel,
