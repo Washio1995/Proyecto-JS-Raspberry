@@ -44,6 +44,11 @@ import { FormularioVentanaComponent } from './componentes/formulario-ventana/for
 import { FormularioCuartoComponent } from './componentes/formulario-cuarto/formulario-cuarto.component';
 import {LoginComponent} from "./componentes/login/login.component";
 import {AuthService} from "./servicios/rest/auth.service";
+import { RutaActualizarUsuarioComponent } from './rutas/ruta-actualizar-usuario/ruta-actualizar-usuario.component';
+import { FormularioActualizarUsuarioComponent } from './componentes/formulario-actualizar-usuario/formulario-actualizar-usuario.component';
+import {SensorRestService} from "./servicios/rest/sensor-rest.service";
+import {PisoRestService} from "./servicios/rest/piso-rest.service";
+import { RutaLogsComponent } from './rutas/ruta-logs/ruta-logs.component';
 
 @NgModule({
   declarations: [
@@ -73,7 +78,10 @@ import {AuthService} from "./servicios/rest/auth.service";
     RutaRegistroVentanaComponent,
     FormularioVentanaComponent,
     FormularioCuartoComponent,
-      LoginComponent
+      LoginComponent,
+      RutaActualizarUsuarioComponent,
+      FormularioActualizarUsuarioComponent,
+      RutaLogsComponent
 
   ],
   imports: [
@@ -99,7 +107,9 @@ import {AuthService} from "./servicios/rest/auth.service";
   ],
   providers: [
       UsuarioRestService,
-      AuthService
+      AuthService,
+      SensorRestService,
+      PisoRestService
   ],
   bootstrap: [AppComponent]
 })

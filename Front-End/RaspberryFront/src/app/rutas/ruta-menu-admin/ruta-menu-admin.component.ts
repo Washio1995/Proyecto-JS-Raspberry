@@ -17,7 +17,8 @@ export class RutaMenuAdminComponent implements OnInit {
       this.items = [
           {label: 'Gestion Usuarios', icon: 'fa fa-fw fa-book' , routerLink:['/login/menu-admin/gestion-usuarios']},
           {label: 'Gestion Sensores', icon: 'fa fa-fw fa-bar-chart', routerLink:['/login/menu-admin/gestion-sensores']},
-          {label: 'Gestion Casa', icon: 'fa fa-fw fa-bar-chart', routerLink:['/login/menu-admin/gestion-casa']}
+          {label: 'Gestion Casa', icon: 'fa fa-fw fa-bar-chart', routerLink:['/login/menu-admin/gestion-casa']},
+          {label: 'Notificaciones', routerLink: ['/login/menu-usuario/notificaciones'] }
       ];
   }
 
