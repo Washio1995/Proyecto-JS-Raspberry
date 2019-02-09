@@ -1,11 +1,13 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 
+
+// @ts-ignore
 @Component({
-  selector: 'app-formulario-ventana',
-  templateUrl: './formulario-ventana.component.html',
-  styleUrls: ['./formulario-ventana.component.scss']
+    selector: 'app-formulario-actualizar-usuario',
+    templateUrl: './formulario-actualizar-usuario.component.html',
+    styleUrls: ['./formulario-actualizar-usuario.component.scss']
 })
-export class FormularioVentanaComponent implements OnInit {
+export class FormularioActualizarUsuarioComponent implements OnInit {
 
     @Input()
     nombre: string;
@@ -20,7 +22,8 @@ export class FormularioVentanaComponent implements OnInit {
     nombreUsuario: string;
     apellido: string;
     correoElectronico: string;
-    password: string;
+    rol: string;
+
 
     constructor() { }
 
@@ -33,10 +36,10 @@ export class FormularioVentanaComponent implements OnInit {
             nombre: this.nombreUsuario,
             apellido: this.apellido,
             correoElectronico: this.correoElectronico,
-            password: this.password
+            rol : this.rol
         };
         this.formularioValido.emit(objetoUsuario);
     }
 
-
 }
+

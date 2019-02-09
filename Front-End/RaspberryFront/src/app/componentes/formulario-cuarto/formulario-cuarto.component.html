@@ -5,12 +5,12 @@
 
   <div>
 
-    <p *ngIf="inputNivel.errors">
+    <p *ngIf="inputIdPiso.errors">
 
       <p-message
-              *ngIf="inputNivel.errors.required"
+              *ngIf="inputIdPiso.errors.required"
               severity="warn"
-              text="Error: El nivel es requerido"></p-message>
+              text="Error: El id del piso es requerido"></p-message>
 
     </p>
 
@@ -37,17 +37,16 @@
   <div class="ui-inputgroup">
 
     <label [hidden]="true"
-           for="nivel">Nivel del Piso</label>
+           for="idPiso">Nivel del Piso</label>
 
-    <input id="nivel"
-
+    <input id="idPiso"
            pInputText
            placeholder="Nivel del Piso"
            required
            type="number"
-           name="nivel"
-           [(ngModel)]="nivel"
-           #inputNivel="ngModel"
+           name="idPiso"
+           [(ngModel)]="idPiso"
+           #inputIdPiso="ngModel"
     >
   </div>
 
