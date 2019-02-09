@@ -14,23 +14,10 @@ export class AppComponent implements OnInit{
 
   }
 
-  ngOnInit(){
+  ngOnInit() {
 
-      this.items = [
 
-          {
-            label: 'Iniciar Sesion', routerLink: ['login']
-          },
-          {
-            label: 'Recuperar Contraseña', routerLink: ['recuperar-contrasena']
-          },
-          {
-            label: 'Acerca de', routerLink: ['/info']
-          }
-
-      ]
-      }
-
+  }
   }
 
 

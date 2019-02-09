@@ -46,21 +46,21 @@ export class LoginComponent implements OnInit {
           console.log(usuario);
           console.log(usuario.rol);
           console.log(this.rol);
+
           if(this.rol=='Administrador') {
             const url = [
-              '/login',
-              'menu-admin'
+              '/menu-admin'
             ];
             alert('Bienvenido ' + usuario.correoElectronico);
             this._router.navigate(url);
           }else{
             const url = [
-              '/login',
-              'menu-usuario'
+              '/menu-usuario'
             ];
             alert('Bienvenido ' + usuario.correoElectronico);
             this._router.navigate(url);
           }
+
         },
         (error) => {
           console.error("ERROOOOR",error);
