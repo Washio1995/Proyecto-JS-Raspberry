@@ -5,7 +5,8 @@
 export const environment = {
   production: false,
     url: 'http://localhost:1337',
-    url2: 'http://172.31.103.82:1337'
+    url2: 'http://172.31.103.82:1337',
+    url3: 'http://172.31.103.82:3000'
 
 
 

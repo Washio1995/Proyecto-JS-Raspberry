@@ -1,7 +1,74 @@
-<p>
+<div class="ui-g">
 
-  ruta-menu-usuario.ts works!
 
-</p>
+
+  <div class="ui-g-6">
+
+    <div>
+      <div><h3>Notificaciones</h3></div>
+      <div>
+      <p-table [value]="notificaciones" [paginator]="true" [rows]="10">
+        <ng-template pTemplate="header">
+          <tr>
+            <th *ngFor="let columna of columnas">
+              {{columna.header}}
+            </th>
+          </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-notificacion>
+          <tr>
+            <td *ngFor="let columna of columnas">
+
+              <div *ngIf="columna.field==='id'">
+
+                <div *ngIf="columna.header=='Identificador'">
+                  {{notificacion[columna.field]}}
+                </div>
+
+
+              </div>
+
+              <div *ngIf="columna.field!=='id'">
+
+                {{notificacion[columna.field]}}
+
+              </div>
+
+
+            </td>
+          </tr>
+        </ng-template>
+      </p-table>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="ui-g-6">
+    <!-- weather widget start --><a target="_blank" href="https://hotelmix.es/weather/hacienda-monjas-279817"><img src="https://w.bookcdn.com/weather/picture/32_279817_1_4_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=w209&anc_id=16886" alt="booked.net"/></a><!-- weather widget end -->
+  </div>
+
+
+
+
+  <div class="ui-g-6">
+
+
+    <p-messages [(value)]="msgs"></p-messages>
+
+    <h3 class="first">Basic</h3>
+    <div>
+      <button type="button" pButton (click)="showSuccess1()" label="Abrir Ventana" class="ui-button-success"></button>
+      <button type="button" pButton (click)="showSuccess2()" label="Cerrar Ventana" class="ui-button-success"></button>
+    </div>
+  </div>
+
+
+
+
+  <div class="ui-g-6">Col4</div>
+</div>
 
 <router-outlet></router-outlet>

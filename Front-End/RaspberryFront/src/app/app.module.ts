@@ -49,6 +49,7 @@ import { FormularioActualizarUsuarioComponent } from './componentes/formulario-a
 import {SensorRestService} from "./servicios/rest/sensor-rest.service";
 import {PisoRestService} from "./servicios/rest/piso-rest.service";
 import { RutaLogsComponent } from './rutas/ruta-logs/ruta-logs.component';
+import {ToastModule} from "primeng/toast";
 
 @NgModule({
   declarations: [
@@ -103,7 +104,8 @@ import { RutaLogsComponent } from './rutas/ruta-logs/ruta-logs.component';
       TabMenuModule,
       StepsModule,
       DropdownModule,
-      SplitButtonModule
+      SplitButtonModule,
+      ToastModule
 
   ],
   providers: [

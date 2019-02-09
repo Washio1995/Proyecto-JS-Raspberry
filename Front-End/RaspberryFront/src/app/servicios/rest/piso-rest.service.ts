@@ -11,6 +11,8 @@ import {map} from "rxjs/operators";
 export class PisoRestService {
 
     nombreModelo = '/Piso';
+    open = '/Open';
+    close = '/Close';
 
     constructor(private readonly _httpClient: HttpClient) {
 
