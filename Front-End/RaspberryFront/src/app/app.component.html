@@ -1,10 +1,17 @@
-<div >
+<div class="container">
 
-  <div>
+  <div class="toppane">
     <h1>PROYECTO RASPBERRY</h1>
   </div>
 
-  <router-outlet></router-outlet>
+  <div class="leftpane">
+    <p-panelMenu [model]="items" [style]="{'width':'315px'}"></p-panelMenu>
+  </div>
+
+  <div class="middlepane">
+    <router-outlet></router-outlet>
+  </div>
+
 
 </div>
 

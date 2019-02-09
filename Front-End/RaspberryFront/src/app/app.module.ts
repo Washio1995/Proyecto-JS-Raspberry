@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import {Component, NgModule} from '@angular/core'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RutaInicioComponent } from './rutas/ruta-inicio/ruta-inicio.component';
 import { Ruta404Component } from './rutas/ruta404/ruta404.component';
 import { RutaLoginComponent } from './rutas/ruta-login/ruta-login.component';
 import { RutaMenuComponent } from './rutas/ruta-menu/ruta-menu.component';
@@ -48,11 +49,11 @@ import { FormularioActualizarUsuarioComponent } from './componentes/formulario-a
 import {SensorRestService} from "./servicios/rest/sensor-rest.service";
 import {PisoRestService} from "./servicios/rest/piso-rest.service";
 import { RutaLogsComponent } from './rutas/ruta-logs/ruta-logs.component';
-import {FullCalendarModule} from "primeng/fullcalendar"
 
 @NgModule({
   declarations: [
     AppComponent,
+    RutaInicioComponent,
     Ruta404Component,
     RutaLoginComponent,
     RutaMenuComponent,
@@ -103,7 +104,6 @@ import {FullCalendarModule} from "primeng/fullcalendar"
       StepsModule,
       DropdownModule,
       SplitButtonModule
-      FullCalendarModule,
 
   ],
   providers: [

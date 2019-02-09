@@ -1,5 +1,6 @@
-import {NgModule} from '@angular/core';
-import {Routes, RouterModule} from '@angular/router';
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import {RutaInicioComponent} from "./rutas/ruta-inicio/ruta-inicio.component";
 import {RutaLoginComponent} from "./rutas/ruta-login/ruta-login.component";
 import {RutaMenuComponent} from "./rutas/ruta-menu/ruta-menu.component";
 import {Ruta404Component} from "./rutas/ruta404/ruta404.component";
@@ -22,106 +23,114 @@ import {RutaRegistroCuartoComponent} from "./rutas/ruta-registro-cuarto/ruta-reg
 import {RutaActualizarUsuarioComponent} from "./rutas/ruta-actualizar-usuario/ruta-actualizar-usuario.component";
 
 const routes: Routes = [
-  {
-    path: '',
-    pathMatch: 'full',
-    redirectTo: 'login'
-  },
-  {
-    path: 'info',
-    component: RutaInfoComponent
-  },
-  {
-    path: 'recuperar-contrasena',
-    component: RutaRecuperarContrasenaComponent
-  },
-  {
-    path: 'login',
-    component: RutaLoginComponent,
-  },
-  {
-    path: 'menu-admin',
-    component: RutaMenuAdminComponent,
-    children: [
-      {
-        path: 'gestion-usuarios',
-        component: RutaGestionUsuariosComponent,
+    {
+      path: '',
+        pathMatch: 'full',
+        redirectTo: 'inicio'
+    },
+    {
+      path: 'inicio',
+        component: RutaInicioComponent
+    },
+    {
+        path: 'info',
+        component: RutaInfoComponent
+    },
+    {
+        path: 'recuperar-contrasena',
+        component: RutaRecuperarContrasenaComponent
+    },
+    {
+      path: 'login',
+      component: RutaLoginComponent,
         children: [
+            {
+                path: 'menu-admin',
+                component: RutaMenuAdminComponent,
+                children: [
+                    {
+                        path: 'gestion-usuarios',
+                        component: RutaGestionUsuariosComponent,
+                        children: [
+                            {
+                                path: 'registrar-usuario',
+                                component: RutaRegistroComponent
+                            },
+                            {
+                                path: 'actualizar-usuario/:idUsuario',
+                                component: RutaActualizarUsuarioComponent
+                            }
+                        ]
+                    },
+                    {
+                        path: 'gestion-sensores',
+                        component: RutaGestionCasaSensoresComponent
+                    },
+                    {
+                        path: 'gestion-casa',
+                        component: RutaGestionCasaComponent,
+                        children: [
+                            {
+                                path:'pisos',
+                                component: RutaGestionCasaPisosComponent,
+                                children:[
+                                    {
+                                        path:'registrar-piso',
+                                        component: RutaRegistroPisoComponent
+                                    }
+                                ]
+                            },
+                            {
+                                path: 'cuartos',
+                                component: RutaGestionCasaCuartosComponent,
+                                children: [
+                                    {
+                                        path: 'registrar-cuarto',
+                                        component: RutaRegistroCuartoComponent
+                                    }
+                                ]
+                            },
+                            {
+                                path: 'ventanas',
+                                component: RutaGestionCasaVentanasComponent
+                            },
+                            {
+                                path: 'sensores',
+                                component: RutaGestionCasaSensoresComponent
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
 
-          {
-            path: 'registrar-usuario',
-            component: RutaRegistroComponent
-          }
+                path: 'menu-usuario',
+                component: RutaMenuUsuarioComponent,
+                children: [
+                    {
+                        path: 'notificaciones',
+                        component: RutaNotificacionesComponent
+                    },
+                    {
+                        path: 'acciones',
+                        component: RutaAccionesComponent
+                    }
+                ]
+            }
         ]
-      },
-      {
-        path: 'gestion-sensores',
-        component: RutaGestionSensoresComponent
-      },
-      {
-        path: 'gestion-casa',
-        component: RutaGestionCasaComponent,
-        children: [
-          {
-            path: 'pisos',
-            component: RutaGestionCasaPisosComponent,
-            children: [
-              {
-                path: 'registrar-piso',
-                component: RutaRegistroPisoComponent
-              }
-            ]
-          },
-          {
-            path: 'cuartos',
-            component: RutaGestionCasaCuartosComponent,
-            children: [
-              {
-                path: 'registrar-cuarto',
-                component: RutaRegistroCuartoComponent
-              }
-            ]
-          },
-          {
-            path: 'ventanas',
-            component: RutaGestionCasaVentanasComponent
-          },
-          {
-            path: 'sensores',
-            component: RutaGestionCasaSensoresComponent
-          }
-        ]
-      }
-    ]
-  },
-
-  {
-    path: 'menu-usuario',
-    component: RutaMenuUsuarioComponent,
-    children: [
-      {
-        path: 'notificaciones',
-        component: RutaNotificacionesComponent
-      },
-      {
-        path: 'acciones',
-        component: RutaAccionesComponent
-      }
-    ]
-  },
-  {
-    path: '**',
-    redirectTo: 'no-encontrado'
-  },
-  {
-    path: 'no-encontrado',
-    component: Ruta404Component
-  }
+    },
+    {
+        path: '**',
+        redirectTo: 'no-encontrado'
+    },
+    {
+        path:'no-encontrado',
+        component: Ruta404Component
+    }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {
-}
+export class AppRoutingModule { }

@@ -16,10 +16,10 @@ export class RutaGestionCasaComponent implements OnInit {
   ngOnInit() {
 
       this.items = [
-          {label:'PISOS', routerLink:'/menu-admin/gestion-casa/pisos'},
-          {label:'CUARTOS', routerLink:'/menu-admin/gestion-casa/cuartos'},
-          {label:'VENTANAS', routerLink: '/menu-admin/gestion-casa/ventanas'},
-          {label:'SENSORES', routerLink:'/menu-admin/gestion-casa/sensores'}
+          {label:'PISOS', routerLink:'/login/menu-admin/gestion-casa/pisos'},
+          {label:'CUARTOS', routerLink:'/login/menu-admin/gestion-casa/cuartos'},
+          {label:'VENTANAS', routerLink: '/login/menu-admin/gestion-casa/ventanas'},
+          {label:'SENSORES', routerLink:'/login/menu-admin/gestion-casa/sensores'}
 
       ];
 
