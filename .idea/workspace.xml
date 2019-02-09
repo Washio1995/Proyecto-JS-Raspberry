@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="28235095-4b2b-46b3-8d30-e78dbca077bd" name="Default Changelist" comment="formularios piso-cuarto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/RaspberryFront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/RaspberryFront/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-cuarto/formulario-cuarto.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-cuarto/formulario-cuarto.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-cuarto/formulario-cuarto.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-cuarto/formulario-cuarto.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-ventana/formulario-ventana.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-ventana/formulario-ventana.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-admin/ruta-menu-admin.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-admin/ruta-menu-admin.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-admin/ruta-menu-admin.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-admin/ruta-menu-admin.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-registro-cuarto/ruta-registro-cuarto.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-registro-cuarto/ruta-registro-cuarto.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-usuario/ruta-menu-usuario.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-usuario/ruta-menu-usuario.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-usuario/ruta-menu-usuario.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-usuario/ruta-menu-usuario.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,65 +15,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Proyecto-JS-Raspberry" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-ventana/formulario-ventana.component.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-ventana/formulario-ventana.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-admin/ruta-menu-admin.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-admin/ruta-menu-admin.component.ts">
+        <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-usuario/ruta-menu-usuario.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-434">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/tsconfig.app.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-usuario/formulario-usuario.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="41" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
-              <caret line="105" column="23" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="414">
+              <caret line="51" column="300" selection-start-line="51" selection-start-column="300" selection-end-line="51" selection-end-column="300" />
             </state>
           </provider>
         </entry>
@@ -88,14 +33,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>usua</find>
-      <find>cuarto</find>
-      <find>apel</find>
-      <find>url</find>
-      <find>apelido</find>
-      <find>lowe</find>
-      <find>nivel</find>
       <find>piso</find>
+      <find>usua</find>
+      <find>nivel</find>
+      <find>cuarto</find>
+      <find>local</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,117 +50,119 @@
         <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-pisos/ruta-gestion-casa-pisos.component.ts" />
         <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa/ruta-gestion-casa.component.html" />
         <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/interfaces/cuartos.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-cuarto/formulario-cuarto.component.ts" />
         <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/cuarto-rest.service.ts" />
-        <option value="$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/config/datastores.js" />
         <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-registro-cuarto/ruta-registro-cuarto.component.html" />
         <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-piso/formulario-piso.component.html" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/piso-rest.service.ts" />
         <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-piso/formulario-piso.component.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-cuartos/ruta-gestion-casa-cuartos.component.html" />
         <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-cuartos/ruta-gestion-casa-cuartos.component.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-cuarto/formulario-cuarto.component.html" />
         <option value="$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/api/controllers/UsuarioController.js" />
         <option value="$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/config/routes.js" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-login/ruta-login.component.html" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/login/login.component.html" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa/ruta-gestion-casa.component.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-pisos/ruta-gestion-casa-pisos.component.html" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-cuartos/ruta-gestion-casa-cuartos.component.html" />
         <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-usuarios/ruta-gestion-usuarios.component.html" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-actualizar-usuario/ruta-actualizar-usuario.component.html" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-actualizar-usuario/formulario-actualizar-usuario.component.html" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-actualizar-usuario/ruta-actualizar-usuario.component.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-actualizar-usuario/formulario-actualizar-usuario.component.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-inicio/ruta-inicio.component.html" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-inicio/ruta-inicio.component.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/login/login.component.scss" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/login/login.component.html" />
         <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-sensores/ruta-gestion-casa-sensores.component.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/interfaces/sensor.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/sensor-rest.service.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-sensores/ruta-gestion-casa-sensores.component.html" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/interfaces/notificaciones.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/notificaciones-rest.service.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/environments/environment.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-notificaciones/ruta-notificaciones.component.html" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-notificaciones/ruta-notificaciones.component.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-registro-cuarto/ruta-registro-cuarto.component.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-cuarto/formulario-cuarto.component.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-cuarto/formulario-cuarto.component.html" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-ventana/formulario-ventana.component.ts" />
-        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/usuario-rest.service.ts" />
+        <option value="$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/config/datastores.js" />
         <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-admin/ruta-menu-admin.component.html" />
         <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-admin/ruta-menu-admin.component.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-notificaciones/ruta-notificaciones.component.html" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/environments/environment.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/piso-rest.service.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-usuario/ruta-menu-usuario.component.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-usuario/ruta-menu-usuario.component.scss" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-usuario/ruta-menu-usuario.component.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="595" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="Proyecto-JS-Raspberry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto-JS-Raspberry" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-JS-Raspberry" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="Proyecto-JS-Raspberry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto-JS-Raspberry" type="462c0819:PsiDirectoryNode" />
-              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-JS-Raspberry" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Front-End" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Proyecto-JS-Raspberry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto-JS-Raspberry" type="462c0819:PsiDirectoryNode" />
-              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
-              <item name="RaspberryFront" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-JS-Raspberry" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Front-End" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="RaspberryFront" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Proyecto-JS-Raspberry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto-JS-Raspberry" type="462c0819:PsiDirectoryNode" />
-              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
-              <item name="RaspberryFront" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-JS-Raspberry" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Front-End" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="RaspberryFront" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Proyecto-JS-Raspberry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto-JS-Raspberry" type="462c0819:PsiDirectoryNode" />
-              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
-              <item name="RaspberryFront" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-JS-Raspberry" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Front-End" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="RaspberryFront" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Proyecto-JS-Raspberry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto-JS-Raspberry" type="462c0819:PsiDirectoryNode" />
-              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
-              <item name="RaspberryFront" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-JS-Raspberry" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Front-End" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="RaspberryFront" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rutas" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Proyecto-JS-Raspberry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto-JS-Raspberry" type="462c0819:PsiDirectoryNode" />
-              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
-              <item name="RaspberryFront" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="ruta-menu-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-JS-Raspberry" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Front-End" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="RaspberryFront" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rutas" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ruta-menu-usuario" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/Front-End/RaspberryFront/node_modules/tslint" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/Front-End/RaspberryFront/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -252,22 +196,28 @@
       <workItem from="1549581359835" duration="279000" />
       <workItem from="1549587986171" duration="2345000" />
       <workItem from="1549607013779" duration="3995000" />
-      <workItem from="1549634773482" duration="13097000" />
-      <workItem from="1549654384529" duration="4165000" />
-      <workItem from="1549659080574" duration="4251000" />
+      <workItem from="1549634773482" duration="6626000" />
+      <workItem from="1549647660882" duration="20528000" />
+      <workItem from="1549671604012" duration="480000" />
+      <workItem from="1549672188051" duration="372000" />
+      <workItem from="1549684968045" duration="1758000" />
+      <workItem from="1549693181086" duration="497000" />
+      <workItem from="1549693713654" duration="155000" />
+      <workItem from="1549694199570" duration="2264000" />
+      <workItem from="1549697001000" duration="3136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28132000" />
+    <option name="totallyTimeSpent" value="42435000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3335981" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.24146147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50183153" side_tool="true" weight="0.24181548" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -277,15 +227,15 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28356165" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30958903" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34895834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -297,8 +247,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.28356165" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.110738255" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -309,368 +259,333 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/login/login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-login/ruta-login.component.html">
+    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/api/controllers/LogController.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-actualizar-usuario/ruta-actualizar-usuario.component.html">
+    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/api/models/Sensor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="-96">
+          <caret line="7" selection-start-line="7" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-actualizar-usuario/ruta-actualizar-usuario.component.ts">
+    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/api/models/Log.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="56" column="60" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-piso/formulario-piso.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/auth.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/api/controllers/CuartoController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/api/controllers/UsuarioController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu/ruta-menu.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu/ruta-menu.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-login/ruta-login.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-pisos/ruta-gestion-casa-pisos.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-pisos/ruta-gestion-casa-pisos.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-usuario/formulario-usuario.component.html">
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-cuartos/ruta-gestion-casa-cuartos.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="157" selection-end-column="7" />
+        <state relative-caret-position="138">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/auth.service.ts">
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa/ruta-gestion-casa.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="33" />
+        <state relative-caret-position="46">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-sensores/ruta-gestion-sensores.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/config/datastores.js">
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa/ruta-gestion-casa.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="52" column="55" lean-forward="true" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-sensores/ruta-gestion-sensores.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-sensores/ruta-gestion-sensores.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/api/models/Usuario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/sensor-rest.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="46">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/interfaces/sensor.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/api/models/Sensor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/interfaces/cuarto.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/usuario-rest.service.spec.ts">
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-pisos/ruta-gestion-casa-pisos.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-logs/ruta-logs.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-logs/ruta-logs.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/api/models/Log.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/piso-rest.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+          <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-sensores/ruta-gestion-casa-sensores.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-sensores/ruta-gestion-casa-sensores.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-ventanas/ruta-gestion-casa-ventanas.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-sensores/ruta-gestion-sensores.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-cuarto/formulario-cuarto.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="483">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        <state relative-caret-position="437">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/interfaces/notificaciones.ts">
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-usuarios/ruta-gestion-usuarios.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-inicio/ruta-inicio.component.ts" />
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app-routing.module.ts">
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-login/ruta-login.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="111" column="62" lean-forward="true" selection-start-line="111" selection-start-column="62" selection-end-line="111" selection-end-column="62" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-registro/ruta-registro.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/login/login.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-usuarios/ruta-gestion-usuarios.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/notificaciones-rest.service.ts">
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/interfaces/usuario.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/config/globals.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-casa-cuartos/ruta-gestion-casa-cuartos.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-inicio/ruta-inicio.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-admin/ruta-menu-admin.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-admin/ruta-menu-admin.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/config/datastores.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-logs/ruta-logs.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-notificaciones/ruta-notificaciones.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="37" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-notificaciones/ruta-notificaciones.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/usuario-rest.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-usuario/formulario-usuario.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-registro/ruta-registro.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/environments/environment.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/config/routes.js">
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/piso-rest.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd-Raspberry/raspberry-backend/config/security.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-usuarios/ruta-gestion-usuarios.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-gestion-usuarios/ruta-gestion-usuarios.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="14" lean-forward="true" selection-start-line="12" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-notificaciones/ruta-notificaciones.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-notificaciones/ruta-notificaciones.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/servicios/rest/usuario-rest.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-registro-cuarto/ruta-registro-cuarto.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-registro-cuarto/ruta-registro-cuarto.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-actualizar-usuario/formulario-actualizar-usuario.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-actualizar-usuario/formulario-actualizar-usuario.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-registro/ruta-registro.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-cuarto/formulario-cuarto.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-cuarto/formulario-cuarto.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-usuario/formulario-usuario.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="41" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-ventana/formulario-ventana.component.html">
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-usuario/ruta-menu-usuario.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-usuario/ruta-menu-usuario.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="105" column="23" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
+        <state relative-caret-position="352">
+          <caret line="84" column="23" lean-forward="true" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-admin/ruta-menu-admin.component.html">
+    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-usuario/ruta-menu-usuario.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/componentes/formulario-ventana/formulario-ventana.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/tsconfig.spec.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/tslint.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/tsconfig.app.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front-End/RaspberryFront/src/app/rutas/ruta-menu-admin/ruta-menu-admin.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-434">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="414">
+          <caret line="51" column="300" selection-start-line="51" selection-start-column="300" selection-end-line="51" selection-end-column="300" />
         </state>
       </provider>
     </entry>

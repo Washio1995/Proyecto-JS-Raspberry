@@ -35,7 +35,7 @@ export class RutaMenuUsuarioComponent implements OnInit {
 
     columnas = [
         {field: 'id', header: 'ID del Sensor'},
-        {field: 'estado', header: 'Estado del Sensor'},
+        {field: 'estado', header: 'Estado Ventana'},
         {field: 'createdAt',header: 'Fecha'}
     ];
 
@@ -60,7 +60,7 @@ export class RutaMenuUsuarioComponent implements OnInit {
     showSuccess1() {
         this.msgs = [];
         this.msgs.push({severity:'success', summary:'Exito:', detail:'Ventana Abierta'});
-        this._httpClient.post(environment.url3,this.open);
+        this._httpClient.post(environment.url3+this.open,'');
 
     }
 
@@ -71,8 +71,5 @@ export class RutaMenuUsuarioComponent implements OnInit {
         console.log(environment.url3+this.close);
 
     }
-
-
-
 
 }
